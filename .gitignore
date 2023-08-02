@@ -50,3 +50,6 @@ rsconnect/
 
 # Quarto
 /.quarto/
+/_site/
+/_book/
+/docs

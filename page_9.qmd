@@ -1,16 +1,22 @@
+:::::: copyright-page
+::: {#CopyrightHead .copyright-page}
 |                       |
 |:---------------------:|
 | **Brought to you by** |
+:::
 
-![](images/aflogo.png){fig-alt="The Asia Foundation Logo" fig-align="center"}
+![](images/aflogo.png){#logo1 fig-alt="The Asia Foundation Logo"}
 
+::: CopyrightText
 +:--------------------------------------------------------------------------------------------------------------------------------:+
 | Let's Read is an initiative of The Asia Foundation's Books for Asia program that fosters young readers in Asia and the Pacific.\ |
 | [booksforasia.org](http://letsreadasia.org/)\                                                                                    |
 | To read more books like this and get further information, visit\                                                                 |
 | [letsreadasia.org](http://letsreadasia.org/).                                                                                    |
 +----------------------------------------------------------------------------------------------------------------------------------+
+:::
 
+::: SubCopyrightText
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Original Story**                                                                                                                                                 |
 |                                                                                                                                                                    |
@@ -22,7 +28,9 @@
 +-------------------------------------------------------------------------------------------------------------------------------------+
 | This work is a modified version of the original story. © The Asia Foundation, 2022. Some rights reserved. Released under CC-BY-4.0. |
 |                                                                                                                                     |
-| ![](images/ccby.jpg) For full terms of use and attribution, <http://creativecommons.org/licenses/by/4.0/>                           |
+| ![](images/ccby.jpg){#cc-img} For full terms of use and attribution, <http://creativecommons.org/licenses/by/4.0/>                  |
 |                                                                                                                                     |
 | Contributing translators: Ritica Lacoul                                                                                             |
 +-------------------------------------------------------------------------------------------------------------------------------------+
+:::
+:::::: 

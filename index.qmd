@@ -1,15 +1,20 @@
+::: {#h1 .container}
 # टोटलाको फूल {.unnumbered}
+:::
 
 ![](images/coverImage.jpeg){fig-alt="Cover Image" fig-align="center"}
 
+::: {#h2 .container}
 |                            |
 |:--------------------------:|
 |       **टोटलाको फूल**       |
 | ***Shrijana Gole Tamang*** |
 |    ***Suman Maharjan***    |
+:::
 
+::: {#img .letsreadlogo}
 ![](images/letsread_asf.jpg){fig-alt="Letsread - The Asia Foundation" fig-align="center"}
-
+:::
 |                                                                                                                                                     |
 |------------------------------------------------------------------------|
 | साथीहरुसँग खेल्दै गर्दा उर्मुको ध्यान टोटलाको रुखमा पर्छ । त्यो भित्र के होला भनेर ! उर्मुको मनमा कुतकुती हुन्छ र रुखमा चढ्न खोज्दा हजुरआमाले रोक्दै टोटलाको फूलको बारेमा भन्नुहुन्छ। |
@@ -22,7 +27,7 @@
 |     **1**     | **8** |        **5**        |
 
 |                    |                                                                     |
-|--------------------------|:--------------------------------------------|
+|---------------------------|:--------------------------------------------|
 | Publisher:         | [The Asia Foundation - Let's Read]{.underline}                      |
 | Illustrator:       | [Suman Maharjan]{.underline}                                        |
 | Contributor:       | [सुष्मा महर्जनकुमुदिनी गुरुङ श्रेष्ठ Srijanalaya]{.underline}                 |

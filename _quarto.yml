@@ -9,7 +9,7 @@ book:
   date-format: long
   search: true
   repo-url: "https://github.com/mohitshrestha/ebook_example"
-  repo-actions: [edit]
+  repo-actions: [edit, issue]
   sharing: [twitter, facebook]
   downloads: [pdf, epub]
   page-navigation: true
@@ -20,9 +20,12 @@ book:
     style: docked
     background: light
   reader-mode: true
-  # cover-image: images/coverImage.jpeg
-  #cover-image-alt: |
-  #  टोटलाको फूल Shrijana Gole Tamang Suman Maharjan
+  google-analytics: 
+    tracking-id: "G-XS72X3QSSM" #"UA-15482141-1"
+    anonymize-ip: false
+  cover-image: images/coverImage.jpeg
+  cover-image-alt: |
+    टोटलाको फूल Shrijana Gole Tamang Suman Maharjan
   chapters:
     - href: index.qmd
       text: "Cover Page"
@@ -53,7 +56,10 @@ format:
     theme: 
         light: cosmo
         dark: darkly
-    css: css/epub.css
+    mainfont: 'Noto Sans Devanagari'
+    #css: themes/styles.scss
+    css: themes/style_example.css
+    number-sections: false
   pdf:
     keep-tex: true
     documentclass: scrreprt
@@ -77,7 +83,8 @@ format:
     toc: true
     lang: en-US
     date: "8/2/2023"
-    css: css/epub.css
+    #css: themes/styles.scss
+    css: themes/style_example.css
     epub-cover-image: images/coverImage.jpeg
 
 editor: visual

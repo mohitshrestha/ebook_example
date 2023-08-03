@@ -1,4 +1,6 @@
 /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;700;800&family=Roboto+Condensed&display=swap');
+
 @font-face {
     font-display: swap;
     font-family: 'NotoSansMyanmar';
@@ -96,6 +98,8 @@
 
 html, body {
 	font-family: JameelNooriNastaleeq, NotoSansLao, NotoSansMyanmar, NotoSansKhmer, NotoSansThai, NotoSansDevanagari, Noto Sans, Arial, sans-serif;
+	$font-family-sans-serif: 'Noto Sans Devanagari', sans-serif;
+    $font-family-monospace: 'Roboto Condensed', sans-serif;
 }
 /* Book text */
 p {
@@ -123,20 +127,23 @@ h2 {
 }
 
 #CopyrightHead{
-	font-size:18px;
+	/* font-size: 18px; */
+	font-size:22px;
 	text-align:center;
 	margin-bottom: 0;
 }
 
 .CopyrightText{
 	margin-top: 0;
-	font-size:12px;
+	/* font-size: 12px; */
+	font-size:16px;
 	padding:0 10px 0 10px;
 	text-align: center;
 }
 
 .SubCopyrightText{
-	font-size: 10px;
+	/* font-size: 10px; */
+	font-size: 18px;
 	padding:0 10px 0 10px;
 }
 

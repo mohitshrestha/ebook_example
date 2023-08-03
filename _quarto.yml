@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _book
+  output-dir: docs
 
 book:
   title: "टोटलाको फूल"
@@ -47,18 +47,19 @@ book:
       text: "Page: 8"
     - href: page_9.qmd
       text: "Page: 9"
-    - references.qmd
+#     - references.qmd
 
-bibliography: references.bib
+# bibliography: references.bib
 
 format:
   html:
     theme: 
         light: cosmo
         dark: darkly
-    mainfont: 'Noto Sans Devanagari'
-    #css: themes/styles.scss
-    css: themes/style_example.css
+    mainfont: 'NotoSansDevanagari'
+    css: 
+      - themes/style_example.css
+      - themes/styles.scss
     number-sections: false
   pdf:
     keep-tex: true
@@ -80,11 +81,20 @@ format:
         }  
     fig-pos: 'H'
   epub:
-    toc: true
+    toc: false
     lang: en-US
-    date: "8/2/2023"
-    #css: themes/styles.scss
-    css: themes/style_example.css
+    css: 
+      - themes/style_example.css
+      - themes/styles.scss
+    number-sections: false
+    # ePub Options
+    identifier: "001"
+    creator: "The Asia Foundation - Let’s Read"
+    contributor: "सुष्मा महर्जनकुमुदिनी गुरुङ श्रेष्ठ Srijanalaya"
+    subject: "तामाङ (Eastern Variation)"
+    belongs-to-collection: https://letsreadasia.org
+    rights: CC-BY-4.0
+    epub-title-page: false
     epub-cover-image: images/coverImage.jpeg
 
 editor: visual

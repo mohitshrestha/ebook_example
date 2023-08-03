@@ -3,89 +3,19 @@
 
 @font-face {
     font-display: swap;
-    font-family: 'NotoSansMyanmar';
-    src:url(NotoSansMyanmar-Regular.woff) format('woff');
-    unicode-range: U+1000-109F, U+A9E0-A9FF, U+AA60-AA7F; /* for codepoints in Myanmar ranges */
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'NotoSansKhmer';
-    src:url(NotoSansKhmer-Regular.woff) format('woff');
-    unicode-range: U+1780-17FF, U+19E0-19FF; /* for codepoints in Khmer ranges */
-}
-@font-face {
-    font-display: swap;
-    font-family: 'NotoSansThai';
-    src:url(NotoSansThai-Regular.woff) format('woff');
-    unicode-range: U+0E00-0E7F; /* for codepoints in Thai range */
-}
-@font-face {
-    font-display: swap;
     font-family: 'NotoSansDevanagari';
     src:url(NotoSansDevanagari-Regular.woff) format('woff');
     unicode-range: U+0900-097F, U+A8E0-A8FF; /* for codepoints in Devanagari ranges */
 }
 @font-face {
-    font-family: 'NotoSansLao';
-    font-display: swap;
-    src:url(NotoSansLao-Regular.woff) format('woff');
-    unicode-range: U+0E80-0EFF /* for codepoints in Lao range */
-}
-
-@font-face {
-	font-family: "JameelNooriNastaleeq";
-    font-display: swap;
-	src: url(JameelNooriNastaleeq.woff) format("woff");
-	unicode-range: U+0600-06FF;
-}
-
-@font-face {
-    font-family: "Bahij-Nazanin";
-    font-display: swap;
-    src: url(BahijNazanin-Regular.ttf) format("truetype");
-	unicode-range: U+0600-06FF;
-}
-
-@font-face {
-    font-family: 'Dwivehi Regular';
-    font-display: swap;
-    src: url(mvilhamregular.ttf) format('truetype');
-    unicode-range: U+0780-07BF;
-}
-
-@font-face{
-    font-family:paudakRegular;
-    src: url(Padauk-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'OpenKhmerSchool';
-    font-display: swap;
-    src: url(OpenKhmerSchool-Regular.ttf) format('truetype');
-    unicode-range: U+1780-17FF, U19E0-19FF;
-}
-
-@font-face {
-    font-family: 'Phetsarath OT';
-    font-display: swap;
-    src: url(Phetsarath-OT.ttf) format('truetype');
-    unicode-range: U+0E80-0EFF;
+    font-family: 'NotoSansDevanagari';
+    font-style: normal;
+    font-weight: normal;
+    src:url(NotoSansDevanagari-Regular.woff) format('woff');
 }
 
 * {
-    font-family: 'Bahij-Nazanin', 'Dwivehi Regular', JameelNooriNastaleeq,
-			JameelNooriNastaleeq, NotoSansLao, NotoSansMyanmar, 
-			NotoSansKhmer, NotoSansThai, NotoSansDevanagari, 
-			Noto Sans, Arial, sans-serif;
-}
-
-[lang="pus"], [lang="ps"], .lang-pus {
-	font-family: 'Bahij-Nazanin', JameelNooriNastaleeq, Noto Sans, Arial, sans-serif;
-}
-
-[lang="div"], [lang="dv"], .lang-div {
-	font-family: 'Dwivehi Regular', Noto Sans, Arial, sans-serif;
+    font-family: 'NotoSansDevanagari', Arial, sans-serif;
 }
 
 /* Illustrations */
@@ -97,7 +27,8 @@
 }
 
 html, body {
-	font-family: JameelNooriNastaleeq, NotoSansLao, NotoSansMyanmar, NotoSansKhmer, NotoSansThai, NotoSansDevanagari, Noto Sans, Arial, sans-serif;
+	font-family: 'NotoSansDevanagari', Arial, sans-serif;
+	$font-family-sans-serif: 'NotoSansDevanagari', sans-serif;
 	$font-family-sans-serif: 'Noto Sans Devanagari', sans-serif;
     $font-family-monospace: 'Roboto Condensed', sans-serif;
 }
